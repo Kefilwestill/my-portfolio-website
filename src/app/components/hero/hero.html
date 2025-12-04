@@ -1,0 +1,33 @@
+<section id="home" class="hero-section">
+  <div class="container hero-wrapper">
+
+    <div class="hero-text">
+      <h1 class="display-3 fw-bold mb-3">{{ name }}</h1>
+      <h2 class="h3 mb-4">{{ role }}</h2>
+
+      <p class="lead mb-4" style="max-width: 600px;">
+        {{ tagline }}
+      </p>
+
+      <div class="social-links d-flex justify-content-center justify-content-md-start gap-3 mb-4">
+        <a *ngFor="let social of socialLinks"
+           [href]="social.url"
+           target="_blank"
+           class="btn btn-light btn-lg">
+          <i [class]="social.icon"></i> {{ social.platform }}
+        </a>
+      </div>
+
+      <a href="#about" class="btn btn-outline-light btn-lg">
+        Learn More About Me
+      </a>
+    </div>
+
+    <div class="hero-image">
+      <img [src]="profileImage"
+           [alt]="name"
+           class="shadow-lg">
+    </div>
+
+  </div>
+</section>

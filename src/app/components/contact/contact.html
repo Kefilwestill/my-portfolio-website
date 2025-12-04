@@ -1,0 +1,38 @@
+<section id="contact" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-5 fw-bold">Get In Touch</h2>
+    
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <p class="text-center lead mb-5">
+          I'm currently open to new opportunities and collaborations. 
+          Whether you have a question or just want to say hi, I'll do my best to get back to you!
+        </p>
+        
+        <div class="row">
+          <div class="col-md-6 mb-4" *ngFor="let contact of contactInfo">
+            <div class="card h-100 shadow-sm border-0 text-center p-4">
+              <i [class]="contact.icon + ' fa-3x text-primary mb-3'"></i>
+              <h5 class="mb-2">{{ contact.title }}</h5>
+              <a *ngIf="contact.link" 
+                 [href]="contact.link" 
+                 target="_blank"
+                 class="text-decoration-none">
+                {{ contact.value }}
+              </a>
+              <span *ngIf="!contact.link" class="text-muted">
+                {{ contact.value }}
+              </span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="text-center mt-5">
+          <a href="mailto:kefilwem23@outlook.com" class="btn btn-primary btn-lg">
+            <i class="fas fa-paper-plane me-2"></i>Send Me an Email
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

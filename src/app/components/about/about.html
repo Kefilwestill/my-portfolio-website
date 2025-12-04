@@ -1,0 +1,32 @@
+<section id="about" class="py-5" style="background-color: #f8f9fa;">
+  <div class="container">
+    <h2 class="text-center mb-5 fw-bold">About Me</h2>
+    
+    <div class="row align-items-center">
+      <div class="col-md-5 text-center mb-4 mb-md-0">
+        <img [src]="profileImage" [alt]="name" class="img-fluid rounded shadow" style="max-width: 350px;">
+      </div>
+      
+      <div class="col-md-7">
+        <h3 class="mb-3">{{ name }}</h3>
+        <h4 class="text-muted mb-4">{{ role }}</h4>
+        
+        <div class="mb-4">
+          <p *ngFor="let paragraph of bio" class="mb-3">{{ paragraph }}</p>
+        </div>
+        
+        <div class="row">
+          <div class="col-md-6 mb-3" *ngFor="let highlight of highlights">
+            <div class="d-flex align-items-start">
+              <i [class]="highlight.icon + ' fa-2x text-primary me-3'"></i>
+              <div>
+                <h5 class="mb-1">{{ highlight.label }}</h5>
+                <p class="text-muted mb-0">{{ highlight.description }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
