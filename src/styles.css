@@ -10,7 +10,7 @@ html {
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-radius: 20px !important;
-  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  border: 1px solid rgba(212, 175, 106, 0.18) !important;
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37) !important;
   transition: all 0.4s ease !important;
 }
@@ -20,23 +20,23 @@ html {
 .skill-card:hover {
   transform: translateY(-8px) !important;
   box-shadow: 0 16px 48px 0 rgba(0, 0, 0, 0.5) !important;
-  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+  border: 1px solid rgba(212, 175, 106, 0.35) !important;
 }
 
 #about {
-  background: linear-gradient(135deg, #1e1e2e 0%, #2d2d44 100%) !important;
-  color: white !important;
+  background: linear-gradient(135deg, #0A0A0A 0%, #3A0D12 100%) !important;
+  color: #F5F1E8 !important;
 }
 
 #about h2,
 #about h3,
 #about h4,
 #about h5 {
-  color: white !important;
+  color: #F5F1E8 !important;
 }
 
 #about p {
-  color: #d4d4e8 !important;
+  color: #E8D5A8 !important;
 }
 
 #about img {
@@ -59,7 +59,7 @@ html {
   position: absolute;
   width: 500px;
   height: 500px;
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.2) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(212, 175, 106, 0.18) 0%, transparent 70%);
   border-radius: 50%;
   top: -250px;
   right: -250px;
@@ -85,31 +85,31 @@ html {
 }
 
 .btn-light {
-  background: rgba(255, 255, 255, 0.2) !important;
+  background: rgba(212, 175, 106, 0.18) !important;
   backdrop-filter: blur(10px) !important;
-  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  border: 1px solid rgba(212, 175, 106, 0.4) !important;
   transition: all 0.3s ease !important;
 }
 
 .btn-light:hover {
-  background: rgba(255, 255, 255, 0.35) !important;
+  background: rgba(212, 175, 106, 0.3) !important;
   transform: translateY(-3px) !important;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3) !important;
 }
 
 #skills {
-  background: linear-gradient(135deg, #2d2d44 0%, #1e1e2e 100%) !important;
-  color: white !important;
+  background: linear-gradient(135deg, #3A0D12 0%, #0A0A0A 100%) !important;
+  color: #F5F1E8 !important;
 }
 
 #skills h2,
 #skills h3,
 #skills h4 {
-  color: white !important;
+  color: #F5F1E8 !important;
 }
 
 #skills p {
-  color: #d4d4e8 !important;
+  color: #E8D5A8 !important;
 }
 
 #skills .card {
@@ -117,23 +117,23 @@ html {
 }
 
 #skills .card:hover {
-  background: rgba(255, 255, 255, 0.12) !important;
-  border: 1px solid rgba(118, 75, 162, 0.6) !important;
+  background: rgba(139, 30, 45, 0.18) !important;
+  border: 1px solid rgba(212, 175, 106, 0.6) !important;
 }
 
 #projects {
-  background: linear-gradient(135deg, #1e1e2e 0%, #2d2d44 100%) !important;
-  color: white !important;
+  background: linear-gradient(135deg, #0A0A0A 0%, #3A0D12 100%) !important;
+  color: #F5F1E8 !important;
 }
 
 #projects h2,
 #projects h3,
 #projects h4 {
-  color: white !important;
+  color: #F5F1E8 !important;
 }
 
 #projects p {
-  color: #d4d4e8 !important;
+  color: #E8D5A8 !important;
 }
 
 #projects .card {
@@ -143,8 +143,8 @@ html {
 
 #projects .card:hover {
   transform: translateY(-15px) !important;
-  border: 1px solid rgba(102, 126, 234, 0.5) !important;
-  box-shadow: 0 25px 80px rgba(102, 126, 234, 0.4) !important;
+  border: 1px solid rgba(212, 175, 106, 0.5) !important;
+  box-shadow: 0 25px 80px rgba(139, 30, 45, 0.4) !important;
 }
 
 #projects img {
@@ -165,7 +165,7 @@ html {
   position: absolute;
   width: 600px;
   height: 600px;
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(212, 175, 106, 0.1) 0%, transparent 70%);
   border-radius: 50%;
   top: -300px;
   left: -300px;
@@ -179,26 +179,26 @@ html {
 .form-control {
   background: rgba(255, 255, 255, 0.2) !important;
   backdrop-filter: blur(10px) !important;
-  border: 1px solid rgba(255, 255, 255, 0.3) !important;
-  color: white !important;
+  border: 1px solid rgba(212, 175, 106, 0.3) !important;
+  color: #F5F1E8 !important;
   transition: all 0.3s ease !important;
 }
 
 .form-control:focus {
   background: rgba(255, 255, 255, 0.3) !important;
-  border: 1px solid rgba(255, 255, 255, 0.5) !important;
-  box-shadow: 0 5px 20px rgba(255, 255, 255, 0.2) !important;
-  color: white !important;
+  border: 1px solid rgba(212, 175, 106, 0.5) !important;
+  box-shadow: 0 5px 20px rgba(212, 175, 106, 0.2) !important;
+  color: #F5F1E8 !important;
 }
 
 .form-control::placeholder {
-  color: rgba(255, 255, 255, 0.7) !important;
+  color: rgba(245, 241, 232, 0.7) !important;
 }
 
 .navbar {
-  background: rgba(15, 15, 30, 0.85) !important;
+  background: rgba(10, 10, 10, 0.85) !important;
   backdrop-filter: blur(20px) !important;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-bottom: 1px solid rgba(212, 175, 106, 0.15) !important;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3) !important;
 }
 
@@ -207,7 +207,7 @@ html {
 }
 
 .nav-link:hover {
-  color: #667eea !important;
+  color: #D4AF6A !important;
   transform: translateY(-2px) !important;
 }
 
@@ -216,18 +216,18 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background: #1e1e2e;
+  background: #0A0A0A;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #8B1E2D 0%, #D4AF6A 100%);
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+  background: linear-gradient(135deg, #D4AF6A 0%, #8B1E2D 100%);
 }
 
 body {
-  background: #0f0f1e !important;
+  background: #0A0A0A !important;
 }

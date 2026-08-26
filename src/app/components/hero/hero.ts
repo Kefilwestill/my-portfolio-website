@@ -10,7 +10,7 @@ import { CommonModule } from '@angular/common';
 })
 export class HeroComponent {
   name = 'Hi, I\'m Kefilwe Makoro';
-  role = 'Front-End Developer';
+  role = 'Angular Developer';
   tagline = 'Building beautiful, clean, responsive and user-friendly web experiences with modern technologies';
   profileImage = '/assets/kefilwe.jpg'; 
 

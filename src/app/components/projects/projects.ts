@@ -11,12 +11,12 @@ import { Component } from '@angular/core';
 export class ProjectsComponent {
   projects = [
     {
-      title: 'Personal Portfolio Website',
-      description: 'A modern, responsive portfolio built with Angular 18 and Bootstrap 5. Features standalone components, TypeScript data binding, and Firebase hosting.',
-      technologies: ['Angular', 'TypeScript', 'Bootstrap', 'Firebase'],
-      image: 'https://via.placeholder.com/400x300/667eea/ffffff?text=Portfolio+Website',
-      githubUrl: 'https://github.com/Kefilwestill/my-portfolio',
-      liveUrl: 'https://my-portfolio-9d352.web.app',
+      title: 'Small Business Website',
+      description: 'A modern, responsive business website built with pure HTML, CSS & JavaScript.',
+      technologies: ['HTML', 'CSS', 'JavaScript', 'Netlify'],
+      image: 'kefilwe3.jpg',
+      githubUrl: 'https://github.com/Kefilwestill/multi-page--business-website-assignment',
+      liveUrl: 'https://buffet-restuarant.netlify.app/',
       featured: true
     }
   ];
