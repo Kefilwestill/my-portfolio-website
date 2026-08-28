@@ -14,9 +14,9 @@ export class ProjectsComponent {
       title: 'Small Business Website',
       description: 'A modern, responsive business website built with pure HTML, CSS & JavaScript.',
       technologies: ['HTML', 'CSS', 'JavaScript', 'Netlify'],
-      image: 'kefilwe3.jpg',
+      image: '/assets/kefilwe3.jpg',
       githubUrl: 'https://github.com/Kefilwestill/multi-page--business-website-assignment',
-      liveUrl: 'https://buffet-restuarant.netlify.app/',
+      liveUrl: 'https://buffet-restaurant.netlify.app/',
       featured: true
     }
   ];

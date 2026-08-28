@@ -9,7 +9,8 @@ import { CommonModule } from '@angular/common';
   styleUrl: './hero.css',
 })
 export class HeroComponent {
-  name = 'Hi, I\'m Kefilwe Makoro';
+  greeting = 'Hi, I\'m';
+  name = 'Kefilwe Makoro';
   role = 'Angular Developer';
   tagline = 'Building beautiful, clean, responsive and user-friendly web experiences with modern technologies';
   profileImage = '/assets/kefilwe.jpg'; 

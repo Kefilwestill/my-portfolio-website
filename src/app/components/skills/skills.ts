@@ -13,7 +13,7 @@ export class SkillsComponent {
     {
       title: 'Frontend Technologies',
       icon: 'fas fa-laptop-code',
-      color: '#667eea',
+      color: '#D4AF6A',
       skills: [
         { name: 'HTML5', level: 90 },
         { name: 'CSS3', level: 85 },
@@ -26,7 +26,7 @@ export class SkillsComponent {
     {
       title: 'Backend & Database',
       icon: 'fas fa-server',
-      color: '#f093fb',
+      color: '#8B1E2D',
       skills: [
         { name: 'Firebase', level: 70 }
       ]
@@ -34,7 +34,7 @@ export class SkillsComponent {
     {
       title: 'Tools & Workflow',
       icon: 'fas fa-tools',
-      color: '#4facfe',
+      color: '#E8D5A8',
       skills: [
         { name: 'Git & GitHub', level: 80 },
         { name: 'VS Code', level: 90 },
